@@ -1,0 +1,2 @@
+github "mxcl/PromiseKit" ~> 4.0
+github "smartdevicelink/sdl_ios" ~> 4.0
