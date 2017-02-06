@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'SmartDeviceLink-PromiseKit/*'
   spec.requires_arc = true
   spec.dependency 'PromiseKit', '~> 4.0'
-  spec.dependency 'SmartDeviceLink-iOS', '~> 4.0'
+  spec.dependency 'SmartDeviceLink-iOS', '~> 4.3'
 
 end
 

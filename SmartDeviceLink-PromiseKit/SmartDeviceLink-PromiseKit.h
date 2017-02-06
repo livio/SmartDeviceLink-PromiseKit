@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double SmartDeviceLink_PromiseKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char SmartDeviceLink_PromiseKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SmartDeviceLink_PromiseKit/PublicHeader.h>
-
-
