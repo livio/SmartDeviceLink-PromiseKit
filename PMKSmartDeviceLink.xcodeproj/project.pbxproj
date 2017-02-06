@@ -29,7 +29,7 @@
 		5DF663C51E48E2310056992F /* PMKSmartDeviceLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMKSmartDeviceLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF663C81E48E2310056992F /* SmartDeviceLink-PromiseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartDeviceLink-PromiseKit.h"; sourceTree = "<group>"; };
 		5DF663C91E48E2310056992F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF663CE1E48E2310056992F /* SmartDeviceLink-PromiseKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartDeviceLink-PromiseKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF663CE1E48E2310056992F /* PMKSmartDeviceLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMKSmartDeviceLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF663D31E48E2310056992F /* SmartDeviceLink_PromiseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDeviceLink_PromiseKitTests.swift; sourceTree = "<group>"; };
 		5DF663D51E48E2310056992F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF663E01E48E47C0056992F /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				5DF663C51E48E2310056992F /* PMKSmartDeviceLink.framework */,
-				5DF663CE1E48E2310056992F /* SmartDeviceLink-PromiseKitTests.xctest */,
+				5DF663CE1E48E2310056992F /* PMKSmartDeviceLinkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			productReference = 5DF663C51E48E2310056992F /* PMKSmartDeviceLink.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5DF663CD1E48E2310056992F /* SmartDeviceLink-PromiseKitTests */ = {
+		5DF663CD1E48E2310056992F /* PMKSmartDeviceLinkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF663DC1E48E2310056992F /* Build configuration list for PBXNativeTarget "SmartDeviceLink-PromiseKitTests" */;
+			buildConfigurationList = 5DF663DC1E48E2310056992F /* Build configuration list for PBXNativeTarget "PMKSmartDeviceLinkTests" */;
 			buildPhases = (
 				5DF663CA1E48E2310056992F /* Sources */,
 				5DF663CB1E48E2310056992F /* Frameworks */,
@@ -151,9 +151,9 @@
 			dependencies = (
 				5DF663D11E48E2310056992F /* PBXTargetDependency */,
 			);
-			name = "SmartDeviceLink-PromiseKitTests";
+			name = PMKSmartDeviceLinkTests;
 			productName = "SmartDeviceLink-PromiseKitTests";
-			productReference = 5DF663CE1E48E2310056992F /* SmartDeviceLink-PromiseKitTests.xctest */;
+			productReference = 5DF663CE1E48E2310056992F /* PMKSmartDeviceLinkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DF663BF1E48E2310056992F /* Build configuration list for PBXProject "SmartDeviceLink-PromiseKit" */;
+			buildConfigurationList = 5DF663BF1E48E2310056992F /* Build configuration list for PBXProject "PMKSmartDeviceLink" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -192,7 +192,7 @@
 			projectRoot = "";
 			targets = (
 				5DF663C41E48E2310056992F /* PMKSmartDeviceLink */,
-				5DF663CD1E48E2310056992F /* SmartDeviceLink-PromiseKitTests */,
+				5DF663CD1E48E2310056992F /* PMKSmartDeviceLinkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -437,7 +437,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DF663BF1E48E2310056992F /* Build configuration list for PBXProject "SmartDeviceLink-PromiseKit" */ = {
+		5DF663BF1E48E2310056992F /* Build configuration list for PBXProject "PMKSmartDeviceLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF663D71E48E2310056992F /* Debug */,
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF663DC1E48E2310056992F /* Build configuration list for PBXNativeTarget "SmartDeviceLink-PromiseKitTests" */ = {
+		5DF663DC1E48E2310056992F /* Build configuration list for PBXNativeTarget "PMKSmartDeviceLinkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DF663DD1E48E2310056992F /* Debug */,

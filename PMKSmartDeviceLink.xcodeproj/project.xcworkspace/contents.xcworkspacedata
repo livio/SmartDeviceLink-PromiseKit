@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SmartDeviceLink-PromiseKit.xcodeproj">
+      location = "self:/Users/joel/Projects/LabDay/SmartDeviceLink-PromiseKit/PMKSmartDeviceLink.xcodeproj">
    </FileRef>
 </Workspace>
