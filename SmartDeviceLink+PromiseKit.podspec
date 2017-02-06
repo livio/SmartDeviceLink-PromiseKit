@@ -2,10 +2,12 @@ Pod::Spec.new do |spec|
 
   spec.name         = 'SmartDeviceLink+PromiseKit'
   spec.version      = '0.1'
+  spec.platform     = :ios, '8.0'
   spec.license      = { :type => "New BSD", :file => "LICENSE" }
   spec.summary      = 'PromiseKit extensions for SmartDeviceLink'
   spec.author       = 'Joel Fischer'
-  spec.source       = { :git => 'git://github.com/livio/SmartDeviceLink+PromiseKit.git', :tag => spec.version }
+  spec.homepage     = 'https://github.com/livio/SmartDeviceLink-PromiseKit'
+  spec.source       = { :git => 'git://github.com/livio/SmartDeviceLink-PromiseKit.git', :tag => spec.version }
   spec.source_files = 'SmartDeviceLink-PromiseKit/*'
   spec.requires_arc = true
   spec.dependency 'PromiseKit', '~> 4.0'
