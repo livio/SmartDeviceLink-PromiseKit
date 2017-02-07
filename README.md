@@ -26,7 +26,7 @@ sdlManager.fileManager.upload(file: file).then { bytesAvailable in
 
 ## Cocoapods
 ```ruby
-pod 'Livio/SmartDeviceLink+PromiseKit', '~> 0.1'
+pod 'SmartDeviceLink+PromiseKit', '~> 0.1'
 ```
 
 ## Carthage
