@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'SmartDeviceLink+PromiseKit'
-  spec.version      = '0.1'
+  spec.version      = '0.2'
   spec.platform     = :ios, '8.0'
   spec.license      = { :type => "New BSD", :file => "LICENSE" }
   spec.summary      = 'PromiseKit extensions for SmartDeviceLink'
