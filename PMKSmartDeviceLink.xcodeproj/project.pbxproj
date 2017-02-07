@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CB0F98B007A6A803C591F7 /* Pods_PMKSmartDeviceLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8FB62E35C5125621DB69EB /* Pods_PMKSmartDeviceLink.framework */; };
 		5DF663CF1E48E2310056992F /* PMKSmartDeviceLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF663C51E48E2310056992F /* PMKSmartDeviceLink.framework */; };
 		5DF663D41E48E2310056992F /* SmartDeviceLink_PromiseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF663D31E48E2310056992F /* SmartDeviceLink_PromiseKitTests.swift */; };
 		5DF663D61E48E2310056992F /* SmartDeviceLink-PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF663C81E48E2310056992F /* SmartDeviceLink-PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DF663E21E48E47C0056992F /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF663E01E48E47C0056992F /* PromiseKit.framework */; };
-		5DF663E31E48E47C0056992F /* SmartDeviceLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF663E11E48E47C0056992F /* SmartDeviceLink.framework */; };
 		5DF663E61E48F2200056992F /* SmartDeviceLink+PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF663E51E48F2200056992F /* SmartDeviceLink+PromiseKit.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,15 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2E8E3D7331F2687DAD5B58 /* Pods-PMKSmartDeviceLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMKSmartDeviceLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PMKSmartDeviceLink/Pods-PMKSmartDeviceLink.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8FB62E35C5125621DB69EB /* Pods_PMKSmartDeviceLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMKSmartDeviceLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF663C51E48E2310056992F /* PMKSmartDeviceLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMKSmartDeviceLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF663C81E48E2310056992F /* SmartDeviceLink-PromiseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartDeviceLink-PromiseKit.h"; sourceTree = "<group>"; };
 		5DF663C91E48E2310056992F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF663CE1E48E2310056992F /* PMKSmartDeviceLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMKSmartDeviceLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF663D31E48E2310056992F /* SmartDeviceLink_PromiseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDeviceLink_PromiseKitTests.swift; sourceTree = "<group>"; };
 		5DF663D51E48E2310056992F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DF663E01E48E47C0056992F /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
-		5DF663E11E48E47C0056992F /* SmartDeviceLink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SmartDeviceLink.framework; path = Carthage/Build/iOS/SmartDeviceLink.framework; sourceTree = "<group>"; };
 		5DF663E51E48F2200056992F /* SmartDeviceLink+PromiseKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SmartDeviceLink+PromiseKit.swift"; sourceTree = "<group>"; };
+		9103950DAFED7DCC322429E8 /* Pods-PMKSmartDeviceLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMKSmartDeviceLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-PMKSmartDeviceLink/Pods-PMKSmartDeviceLink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF663E31E48E47C0056992F /* SmartDeviceLink.framework in Frameworks */,
-				5DF663E21E48E47C0056992F /* PromiseKit.framework in Frameworks */,
+				28CB0F98B007A6A803C591F7 /* Pods_PMKSmartDeviceLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C2F07009A135CDBAC89B695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E8E3D7331F2687DAD5B58 /* Pods-PMKSmartDeviceLink.debug.xcconfig */,
+				9103950DAFED7DCC322429E8 /* Pods-PMKSmartDeviceLink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5DF663BB1E48E2310056992F = {
 			isa = PBXGroup;
 			children = (
-				5DF663DF1E48E4700056992F /* Libraries */,
 				5DF663C71E48E2310056992F /* SmartDeviceLink-PromiseKit */,
 				5DF663D21E48E2310056992F /* SmartDeviceLink-PromiseKitTests */,
 				5DF663C61E48E2310056992F /* Products */,
+				5C2F07009A135CDBAC89B695 /* Pods */,
+				7FAD18BB3C63DE337508090F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,13 +105,12 @@
 			path = "SmartDeviceLink-PromiseKitTests";
 			sourceTree = "<group>";
 		};
-		5DF663DF1E48E4700056992F /* Libraries */ = {
+		7FAD18BB3C63DE337508090F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DF663E01E48E47C0056992F /* PromiseKit.framework */,
-				5DF663E11E48E47C0056992F /* SmartDeviceLink.framework */,
+				1D8FB62E35C5125621DB69EB /* Pods_PMKSmartDeviceLink.framework */,
 			);
-			name = Libraries;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,11 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DF663D91E48E2310056992F /* Build configuration list for PBXNativeTarget "PMKSmartDeviceLink" */;
 			buildPhases = (
+				8511EF2B8A7ADE3B294E8FC3 /* [CP] Check Pods Manifest.lock */,
 				5DF663C01E48E2310056992F /* Sources */,
 				5DF663C11E48E2310056992F /* Frameworks */,
 				5DF663C21E48E2310056992F /* Headers */,
 				5DF663C31E48E2310056992F /* Resources */,
-				5DF663E41E48E6890056992F /* ShellScript */,
+				FBF32AF669183AB85EA55D09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,20 +224,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5DF663E41E48E6890056992F /* ShellScript */ = {
+		8511EF2B8A7ADE3B294E8FC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SmartDeviceLink.framework",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF32AF669183AB85EA55D09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PMKSmartDeviceLink/Pods-PMKSmartDeviceLink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -361,6 +385,7 @@
 		};
 		5DF663DA1E48E2310056992F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2E8E3D7331F2687DAD5B58 /* Pods-PMKSmartDeviceLink.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -369,10 +394,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "SmartDeviceLink-PromiseKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,6 +408,7 @@
 		};
 		5DF663DB1E48E2310056992F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9103950DAFED7DCC322429E8 /* Pods-PMKSmartDeviceLink.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -394,10 +417,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "SmartDeviceLink-PromiseKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

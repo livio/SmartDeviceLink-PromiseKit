@@ -6,7 +6,7 @@
 //  Copyright © 2017 livio. All rights reserved.
 //
 
-import SmartDeviceLink
+import SmartDeviceLink_iOS
 import PromiseKit
 
 extension SDLFileManager {

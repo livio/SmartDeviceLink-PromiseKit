@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'PMKSmartDeviceLink' do
+
+pod 'SmartDeviceLink-iOS', '~> 4.3'
+pod 'PromiseKit', '~> 4.0'
+
+end

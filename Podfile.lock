@@ -1,0 +1,25 @@
+PODS:
+  - PromiseKit (4.1.7):
+    - PromiseKit/Foundation (= 4.1.7)
+    - PromiseKit/QuartzCore (= 4.1.7)
+    - PromiseKit/UIKit (= 4.1.7)
+  - PromiseKit/CorePromise (4.1.7)
+  - PromiseKit/Foundation (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.7):
+    - PromiseKit/CorePromise
+  - SmartDeviceLink-iOS (4.5.2)
+
+DEPENDENCIES:
+  - PromiseKit (~> 4.0)
+  - SmartDeviceLink-iOS (~> 4.3)
+
+SPEC CHECKSUMS:
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  SmartDeviceLink-iOS: 208cdf25aa3d7d1cc2c9633bf32703400673736f
+
+PODFILE CHECKSUM: 846a7e0ae7ec0963b918d10e8a9ffffdd2c7b57c
+
+COCOAPODS: 1.2.0
